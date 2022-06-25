@@ -1,0 +1,11 @@
+[Unit]
+Description=Nmap mas intrusosBot
+
+[Service]
+#User=alarm
+Type=forking
+ExecStart=/home/dc/tools/red_bot/escanea_red.sh
+#Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
